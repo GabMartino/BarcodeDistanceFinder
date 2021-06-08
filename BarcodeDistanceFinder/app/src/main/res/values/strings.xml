@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BarcodeDistanceFinder2</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="header">Settings</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to Barcode Distance Finder </string>
+    <string name="slide_1_desc">The app the allows you to find the distance of a printed barcode from a picture </string>
+
+    <string name="slide_2_title">How does it work? </string>
+    <string name="slide_2_desc">Aim to the barcode and wait for the calculated distance </string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="BarcodeSizeSettingNamekey">BarcodeSize</string>
+    <string name="BarcodeSizeSettingTitle">Barcode Real Size Reference (mm)</string>
+    <string name="BarcodeSizeDefaultValue">50</string>
+
+    <string name="WarningDistanceNameKey">WarningDistance</string>
+    <string name="WarningDistanceTitle">Warning Distance (cm)</string>
+    <string name="WarningDistanceDefaultValue">30</string>
+
+    <string name="title_activity_info">Information</string>
+    <string name="info_button"></string>
+    <string name="info_content_path">file:\\\android_assets\\info.html</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="minfocusdistance">MinFocusDistance</string>
+    <string name="distance">Distance</string>
+    <string name="hyperfocaldistance">HyperFocalDistance</string>
+    <string name="quality">Quality</string>
+
+    <string name="statisticsButton">statisticsButton</string>
+    <string name="listOfDistances">listOfDistances</string>
+    <string name="distanceWarning">Behaviour</string>
+
+    <string name="DangerousLevelKey">dangerous_level</string>
+    <string name="DangerousLevelTitle">Dangerous Level</string>
+    <string name="DangerousLevelDefaultValue">0.2</string>
+</resources>

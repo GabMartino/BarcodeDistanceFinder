@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/header">
+
+        <EditTextPreference
+            app:key="@string/BarcodeSizeSettingNamekey"
+            app:title="@string/BarcodeSizeSettingTitle"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/BarcodeSizeDefaultValue"
+            />
+        <EditTextPreference
+            app:key="@string/WarningDistanceNameKey"
+            app:title="@string/WarningDistanceTitle"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/WarningDistanceDefaultValue"
+            />
+        <Preference
+            app:title="See Statistics"
+            app:key="@string/statisticsButton"
+            app:summary="Visualize behaviour"
+            />
+        <EditTextPreference
+            app:key="@string/DangerousLevelKey"
+            app:title="@string/DangerousLevelTitle"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="@string/DangerousLevelDefaultValue"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

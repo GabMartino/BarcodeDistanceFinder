@@ -1,0 +1,38 @@
+
+
+<body>
+<h1>
+    Information on Barcode Distance Finder
+</h1>
+<h2>
+    How does it work?
+</h2>
+<b>
+    This application use the <a href="https://developers.google.com/vision">Mobile Vision library</a>
+    to detect barcodes from the image.<br>
+    The barcodes detected have specific contour around them with some sizes. These information are used with a bit of arithmetic to capture distance information.
+
+</b>
+<br/>
+<br/>
+<br/>
+<img src="file:///android_res//drawable//equation.png" alt="Equation" class="image"/>
+<br/>
+<br/>
+<br/>
+<b>f(mm):</b> Focal lenght of the camera.<br>
+<b>Height<sub>o</sub>(mm):</b> Real height of the object that we want to calculate the distance with.<br>
+<b>Height<sub>i</sub>(pixels):</b> Size of the image visualized. (This depends on the preview size selected from the device camera. <br>
+<b>c</b> Ratio between the resolution of the device and the resolution of the camera source.<br>
+<b>Height<sub>o</sub>(pixels):</b> Object height in pixels, this are the values of the preview size.<br>
+<b>Height<sub>s</sub>(pixels):</b> Size of the sensor of the camera, specific for each device.<br>
+
+<h2>
+    What does that information mean?
+</h2>
+
+<b>Quality</b> If the device is correctly calibrated from the manufacturer to detect the distances '1' is shown, otherwise a lower value. In the latter case the distance calculated is unreliable.<br>
+<b>MinFocusDistance</b> This value represent the diopters of the minimum focus.(Diopter = 1/meters)<br>
+<b>HyperFocalDistance</b> This value represents the diopters of the maximum focus.<br>
+
+</body>
